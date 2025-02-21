@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+    <style>
+        ul li{
+            margin: 8px;
+        }
+        .del{
+            background-color: red;
+            color: white;
+        }
+        .add{
+            background-color: green;
+            color: white;
+        }
+        button{
+            border: 0;
+            outline: none;
+            padding: 5px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<h1>TODO app</h1>
+<input type="text" placeholder="enter task">
+<button class="add">add task</button>
+<ul>
+    <li>eat<button class="del">delete</button></li>
+    <li>sleep <button class="del">delete</button></li>
+</ul>
+<script src="TODO.js"></script>
+</body>
+</html>
